@@ -1,0 +1,14 @@
+1) Make an application that is able to find the alphabet of a sequence of text. 
+This sequence may be an ARN seq or ADN seq or protein seq.
+
+2) A DNA seq is given s=”ACGGGCATATGCGC” make an app which is able to show 
+the percentage of the components from the alphabet of the seq s. 
+In other words, the input of the seq s and the output is the alphabet of the 
+seq and the percentage of each letter in the alphabet found in seq s.
+
+3)	Use the AI to adapt your current algorithm inorder to make an app that 
+takes a FASTA file and read the seq content from it and display the rel. 
+percentage s for the symbols present in the alphabet of seq. 
+
+NOTE: FASTA represents a file format that contains DNA, RNA or proteins seq. 
+Thus, it contains the information for the input.
