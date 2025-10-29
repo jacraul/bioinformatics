@@ -1,0 +1,7 @@
+There are two primary issues with this algorithmic approach. 
+First, there are gaps in coverage because random sampling isn't always comprehensive. 
+Like our code did at 273 bp, you may be missing the single fragment that joins two larger pieces, which would cause the assembly to become "stuck" and fail. 
+Second, repetitive regions: repeating patterns (such as...ATGCATGCATGC...) are abundant in DNA. 
+These confuse a basic overlap algorithm, which is unable to determine which repeat to stitch on next. 
+These areas will frequently "collapse" as a result, producing an inaccurate and 
+significantly shorter final sequence than the original.
